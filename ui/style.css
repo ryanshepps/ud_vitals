@@ -1,0 +1,60 @@
+#container {
+    position: fixed;
+    left: 40%;
+    bottom: 1%;
+    transform: skew(30deg);
+    padding: 2px 2px 0px 2px;
+}
+
+#armor, #hunger, #health, #thirst {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    margin: 0;
+    border-style: solid;
+    border-left-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 1px;
+    border-color: white;
+}
+
+.row {
+    height: 22px;
+}
+
+#armor, #health {
+    width: 300px;
+}
+
+#hunger, #thirst {
+    width: 50px;
+}
+
+#armor .bar {
+    height: 100%;
+    background-color: blue;
+}
+
+#hunger .bar {
+    height: 100%;
+    background-color: orange;
+}
+
+#health .bar {
+    height: 100%;
+    background-color: green;
+}
+
+#thirst .bar {
+    height: 100%;
+    background-color: purple;
+}
+
+img {
+    position: absolute;
+    left: 18px;
+    padding-top: 2px;
+    height: 16px;
+    transform: skew(-30deg);
+}
